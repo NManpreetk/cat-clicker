@@ -1,6 +1,9 @@
 h1 {
     text-align: center;
 }
+body{
+    background-image: url("http://sfwallpaper.com/images/nice-background-image-for-website-11.jpg")
+}
 
 #cat {
     display: block;
@@ -9,10 +12,11 @@ h1 {
     width: 50%;
     height: 300px;
     width: 500px;
+    padding-bottom: 30px;
 }
 
 #counter {
     display: block;
-    margin: 0 auto;
-    width: 50%;
+    margin-left: auto;
+    width: 55%;
 }
