@@ -1,8 +1,65 @@
-var b = document.querySelector("#cat")
-var c = document.querySelector("#count")
+var b1 = document.querySelector("#cat1")
+var c1 = document.querySelector("#count1")
+var b2 = document.querySelector("#cat2")
+var c2 = document.querySelector("#count2")
+var h1 = document.querySelector("#catone")
+var h2 = document.querySelector("#cattwo")
+
+h1.style.textAlign = "center";
+h2.style.textAlign = "center";
 
 let counting = 0;
-b.addEventListener("click", function(){
-    c.textContent = counting++;
-    b.innerHTML = ("https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA5Ny85NTkvb3JpZ2luYWwvc2h1dHRlcnN0b2NrXzYzOTcxNjY1LmpwZw==")
+let add = 0;
+
+let x = "red cat";
+let y = "blue cat";
+
+h1.textContent = x;
+h2.textContent = y;
+
+b1.addEventListener("click", function () {
+    c1.textContent = counting++;
 })
+
+
+b2.addEventListener("click", function () {
+    c2.textContent = add++;
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function anotherCat() {
+//     var b2 = document.createElement("span");
+//     var t = document.createTextNode("Total clicks: ");
+//     b2.appendChild(t)
+//     document.body.appendChild(b2);
+//     var x = 0;
+//     cat2.addEventListener("click", function () {
+//         document.createElement("span").textContent++
+//     })
+//     console.log(x)
+// }
+
+// console.log(anotherCat())
